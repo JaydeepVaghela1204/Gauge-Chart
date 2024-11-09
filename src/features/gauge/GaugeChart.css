@@ -1,0 +1,45 @@
+.gauge-chart-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.gauge-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.recharts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.update-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.update-button:hover {
+    background-color: #357ab8;
+}
+
+@media (max-width: 768px) {
+    .gauge-title {
+        font-size: 1.2em;
+    }
+
+    .update-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
