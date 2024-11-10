@@ -22,3 +22,6 @@ Run the following command to run the project:
 npm start
 ```
 
+### 3. After run this project it look like:
+
+![Screenshot of the project](src/assets/images/screenshot.png)
